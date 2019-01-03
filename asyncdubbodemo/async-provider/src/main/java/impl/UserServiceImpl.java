@@ -51,4 +51,16 @@ public class UserServiceImpl implements UserService {
         return submit;
     }
 
+    @Override
+    public User getUserByDubboAsync() {
+
+        try {
+            System.out.println("创建User很耗时间......");
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        return new User(333333, "dubbo的异步实现");
+    }
 }

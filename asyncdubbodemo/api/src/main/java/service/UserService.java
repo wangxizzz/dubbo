@@ -21,5 +21,10 @@ public interface UserService {
      */
     ListenableFuture<User> getUserByGuavaAsync();
 
-
+    /**
+     *  通过dubbo的异步实现多服务调用的异步执行
+     *
+     * @return 返回User
+     */
+    User getUserByDubboAsync();
 }

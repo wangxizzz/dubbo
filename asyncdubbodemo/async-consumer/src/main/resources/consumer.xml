@@ -19,6 +19,7 @@
         <dubbo:method name="getUser" timeout="5000"></dubbo:method>
         <!--测试Guava中的异步操作dubbo，测试失败-->
 		<dubbo:method name="getUserByGuavaAsync" timeout="9000"></dubbo:method>
+		<dubbo:method name="getUserByDubboAsync" timeout="5000" async="true"></dubbo:method>
 	</dubbo:reference>
 		
 	<!-- 配置当前消费者的统一规则：所有的服务都不检查 -->

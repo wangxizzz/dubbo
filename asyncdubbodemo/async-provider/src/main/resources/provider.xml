@@ -20,6 +20,7 @@
 	<dubbo:service interface="service.UserService" ref="userServiceImpl01">
 		<dubbo:method name="getUser" timeout="9000"></dubbo:method>
 		<dubbo:method name="getUserByGuavaAsync" timeout="9000"></dubbo:method>
+		<dubbo:method name="getUserByDubboAsync" timeout="5000"></dubbo:method>
 	</dubbo:service>
 	
 	<!--统一设置服务提供方的规则  -->
