@@ -8,6 +8,8 @@ import com.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 
 /**
  * 1、将服务提供者注册到注册中心（暴露服务）
@@ -21,12 +23,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class OrderServiceImpl implements OrderService {
 
-	@Autowired
+	@Resource(name = "userService01")
 	private UserService userService;
 	@Override
 	public List<UserAddress> initOrder(String userId) {
 		// TODO Auto-generated method stub
 		System.out.println("用户id："+userId);
+		System.out.println(userService);
 		//1、查询用户的收货地址
 		List<UserAddress> addressList = userService.getUserAddressList(userId);
 		for (UserAddress userAddress : addressList) {

@@ -6,7 +6,6 @@ import com.demo.service.UserService;
 import java.util.Arrays;
 import java.util.List;
 
-
 public class UserServiceImpl2 implements UserService {
 
 	@Override
