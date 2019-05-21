@@ -17,7 +17,9 @@
 	<dubbo:protocol name="dubbo" port="20882"></dubbo:protocol>
 	
 	<!-- 4、暴露服务   ref：指向服务的真正的实现对象 -->
-	<dubbo:service interface="service.UserService" ref="userServiceImpl01">
+    <!-- 如果需要设置直连方式，需要在<dubbo:service>标签加一个属性registry="N/A"，另外需要删掉一切与注册中心相关的配置-->
+	<dubbo:service
+			interface="service.UserService" ref="userServiceImpl01">
 		<dubbo:method name="getUser" timeout="9000"></dubbo:method>
 		<dubbo:method name="getUserByGuavaAsync" timeout="9000"></dubbo:method>
 		<dubbo:method name="getUserByDubboAsync" timeout="5000"></dubbo:method>

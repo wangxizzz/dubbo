@@ -9,6 +9,8 @@
         <module name="api" />
         <module name="async-consumer" />
         <module name="async-provider" />
+        <module name="asyncconsumer" />
+        <module name="asyncprovider" />
       </profile>
     </annotationProcessing>
   </component>
