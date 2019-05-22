@@ -3,6 +3,8 @@ package service;
 import bean.User;
 import com.google.common.util.concurrent.ListenableFuture;
 
+import java.util.concurrent.Future;
+
 
 public interface UserService {
     /**
@@ -11,6 +13,12 @@ public interface UserService {
      * @return 返回User对象
      */
     User getUser();
+
+    /**
+     * 测试返回Future，测试失败
+     * @return
+     */
+    public Future<User> getUserByFuture();
 
     /**
      * 通过guava中的ListenableFuture，

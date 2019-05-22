@@ -6,9 +6,7 @@ import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
 import service.UserService;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 public class UserServiceImpl implements UserService {
 
@@ -27,6 +25,12 @@ public class UserServiceImpl implements UserService {
         }
 
         return new User(1, "aa");
+    }
+
+    @Override
+    public Future<User> getUserByFuture() {
+        System.out.println("进入getUserByFuture。。");
+        return new MyFuture(new MyCallable());
     }
 
     /**

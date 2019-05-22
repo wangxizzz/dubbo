@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import service.UserService;
 
+import java.util.concurrent.Future;
+
 
 @Service(value = "userServiceConsumer")
 public class UserServiceConsumer {
@@ -15,6 +17,10 @@ public class UserServiceConsumer {
     public User getUserInConsumer() {
 
         return userService.getUser();
+    }
+
+    public Future<User> getUserByFuture() {
+        return userService.getUserByFuture();
     }
 
     public ListenableFuture<User> getUserInConsumerByGuavaAsync() {
