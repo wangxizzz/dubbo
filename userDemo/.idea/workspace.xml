@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d15e506d-29c4-427e-affa-a11e043548bd" name="Default Changelist" comment="" />
+    <list default="true" id="d15e506d-29c4-427e-affa-a11e043548bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/boot-user-service-provider/target/" />
@@ -19,25 +23,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/demo/bootuserserviceprovider/BootUserServiceProviderApplication.java">
+        <entry file="file://$PROJECT_DIR$/boot-user-service-provider/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="271">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boot-user-service-provider/pom.xml">
+        <entry file="file://$PROJECT_DIR$/boot-user-service-consumer/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="218">
+              <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -173,11 +173,11 @@
         <option value="$PROJECT_DIR$/user-service-consumer/src/main/resources/consumer.xml" />
         <option value="$PROJECT_DIR$/user-service-consumer/src/main/java/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/demo/bootuserserviceprovider/BootUserServiceProviderApplication.java" />
-        <option value="$PROJECT_DIR$/boot-user-service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/boot-user-service-consumer/src/main/java/com/demo/bootuserserviceconsumer/BootUserServiceConsumerApplication.java" />
         <option value="$PROJECT_DIR$/boot-user-service-consumer/src/main/java/com/demo/bootuserserviceconsumer/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/demo/bootuserserviceprovider/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/boot-user-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-user-service-consumer/pom.xml" />
       </list>
     </option>
   </component>
@@ -672,6 +672,11 @@
             <path>
               <item name="userDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="userDemo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="userDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userDemo" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -849,7 +854,7 @@
     <property name="SearchEverywhereHistoryKey" value="HandlerMethod &#9;PSI&#9;JAVA://org.springframework.web.method.HandlerMethod&#10;AbstractBeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractBeanFactory&#10;parseBeanDefinitionElement&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.BeanDefinitionParserDelegate#parseBeanDefinitionElement&#10;BeanDefinition&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;LoadB&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.cluster.LoadBalance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589179389420" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589179553711" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1034,17 +1039,17 @@
       <workItem from="1554889160155" duration="27000" />
       <workItem from="1558277677171" duration="14000" />
       <workItem from="1558318298980" duration="19678000" />
-      <workItem from="1589174511579" duration="4063000" />
+      <workItem from="1589174511579" duration="4314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42834000" />
+    <option name="totallyTimeSpent" value="43085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="692" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.226979" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.226979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1065,7 +1070,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080776" side_tool="true" weight="0.32874355" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32582322" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32582322" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -1240,14 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-user-service-consumer/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/demo/bootuserserviceprovider/BootUserServiceProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1334,8 +1331,16 @@
     <entry file="file://$PROJECT_DIR$/boot-user-service-provider/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="271">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-user-service-consumer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
         </state>
       </provider>
     </entry>
