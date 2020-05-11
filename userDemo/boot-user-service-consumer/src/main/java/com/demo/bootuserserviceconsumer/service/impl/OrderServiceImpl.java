@@ -3,11 +3,10 @@ package com.demo.bootuserserviceconsumer.service.impl;
 import java.util.Arrays;
 import java.util.List;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.demo.bean.UserAddress;
 import com.demo.service.OrderService;
 import com.demo.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Service;
 
 

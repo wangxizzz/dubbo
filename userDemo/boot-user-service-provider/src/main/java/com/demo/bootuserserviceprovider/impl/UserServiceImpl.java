@@ -3,9 +3,9 @@ package com.demo.bootuserserviceprovider.impl;
 import java.util.Arrays;
 import java.util.List;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.demo.bean.UserAddress;
 import com.demo.service.UserService;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.stereotype.Component;
 
 
@@ -20,9 +20,9 @@ public class UserServiceImpl implements UserService {
 		System.out.println("UserServiceImpl..3.....");
 		UserAddress address1 = new UserAddress(1, "北京市昌平区层", "1", "李老师", "010-56253825", "Y");
 		UserAddress address2 = new UserAddress(2, "深圳市", "1", "王老师", "010-56253825", "N");
-		if(Math.random()>0.5) {
-			throw new RuntimeException();
-		}
+//		if(Math.random()>0.5) {
+//			throw new RuntimeException();
+//		}
 		return Arrays.asList(address1,address2);
 	}
 
