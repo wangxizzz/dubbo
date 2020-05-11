@@ -19,6 +19,13 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.alibaba.csp/sentinel-apache-dubbo-adapter -->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-apache-dubbo-adapter</artifactId>
+            <version>1.6.3</version>
+        </dependency>
+
         <!--引入springboot整合dubbo的依赖，同时也引入了zookeeper和操作其客户端-->
         <!-- https://mvnrepository.com/artifact/org.apache.dubbo/dubbo-spring-boot-starter -->
         <dependency>
@@ -26,6 +33,10 @@
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>2.7.3</version>
         </dependency>
+        <!--
+            zookeeper 需要使用3.5+版本 -> curator 4.0+
+            zookeeper 需要使用3.4.*版本 -> curator 2.0+
+           采坑了-->
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
