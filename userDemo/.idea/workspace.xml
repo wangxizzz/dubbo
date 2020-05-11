@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d15e506d-29c4-427e-affa-a11e043548bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d15e506d-29c4-427e-affa-a11e043548bd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/boot-user-service-provider/target/" />
@@ -39,8 +36,8 @@
         <entry file="file://$PROJECT_DIR$/boot-user-service-provider/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+            <state relative-caret-position="306">
+              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -852,7 +849,7 @@
     <property name="SearchEverywhereHistoryKey" value="HandlerMethod &#9;PSI&#9;JAVA://org.springframework.web.method.HandlerMethod&#10;AbstractBeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractBeanFactory&#10;parseBeanDefinitionElement&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.BeanDefinitionParserDelegate#parseBeanDefinitionElement&#10;BeanDefinition&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;LoadB&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.cluster.LoadBalance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589179088487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589179389420" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1037,12 +1034,12 @@
       <workItem from="1554889160155" duration="27000" />
       <workItem from="1558277677171" duration="14000" />
       <workItem from="1558318298980" duration="19678000" />
-      <workItem from="1589174511579" duration="3885000" />
+      <workItem from="1589174511579" duration="4063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42656000" />
+    <option name="totallyTimeSpent" value="42834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="692" extended-state="6" />
@@ -1061,14 +1058,14 @@
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.1852459" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49919224" visible="true" weight="0.34315425" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49919224" weight="0.34315425" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5081967" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080776" side_tool="true" weight="0.32874355" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32874355" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32582322" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -1337,8 +1334,8 @@
     <entry file="file://$PROJECT_DIR$/boot-user-service-provider/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
